@@ -6,12 +6,8 @@ authors = ["Bill Henderson"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-scikit-image = "^0.22.0"
-numpy = "^1.26.3"
-matplotlib = "^3.8.2"
-ipykernel = "^6.29.0"
-jupyter = "^1.0.0"
+python = ">=3.9"
+
 
 
 [build-system]
