@@ -1,6 +1,6 @@
-# This yml file is intended to asssit users on Mac M2-M3 systems
-# with installation of the environment for CSCI E-25. This instalation
-# script helps with this non-standard environment.    
+# This yml file is intended to asssit users with installation of the environment 
+# for CSCI E-25. In particular, this instalation script helps with this non-standard 
+# environments like Mac M2-M3, but should be useful for all environments.    
 # 
 # This script was contributed by Prashant Tiwari. 
 #
