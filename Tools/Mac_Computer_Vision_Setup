@@ -1,0 +1,36 @@
+# This yml file is intended to asssit users with installation of the environment 
+# for CSCI E-25. In particular, this instalation script helps with this non-standard 
+# environments like Mac M2-M3, but should be useful for all environments.    
+# 
+# This script was contributed by Prashant Tiwari. 
+#
+# Instructions for use:  
+# 1. Download this script to the location in your file system where you intend to run your code. 
+# 2. Run following command: 
+#		conda env create -f Computer_vision.yml
+#
+# You may need to make one minor change in in the imports of the notebooks you run.    
+# Replace: from keras.utils import np_utils as ku
+# with: from keras import utils as ku 
+#
+# That's it, point your jupyter notebook or VScode to this env (computer-vision_with_keras) and it should have all the packages you need.
+
+name: computer-vision_with_keras
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python>=3.11
+  - numpy
+  - pip
+  - matplotlib
+  - jupyter
+  - scikit-learn
+  - scikit-optimize
+  - seaborn
+  - pandas
+  - IPython
+  - scikit-image
+  - pip:
+    - keras
+  - tensorflow
